@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net70Project", "Net70Project\Net70Project.csproj", "{F3AC7BBA-E28B-4A7B-BE38-2C3A15D69A96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net70WebApplication", "Net70WebApplication\Net70WebApplication.csproj", "{EC60954D-252A-4614-B8DC-C51943DBEA51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3AC7BBA-E28B-4A7B-BE38-2C3A15D69A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3AC7BBA-E28B-4A7B-BE38-2C3A15D69A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3AC7BBA-E28B-4A7B-BE38-2C3A15D69A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3AC7BBA-E28B-4A7B-BE38-2C3A15D69A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC60954D-252A-4614-B8DC-C51943DBEA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC60954D-252A-4614-B8DC-C51943DBEA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC60954D-252A-4614-B8DC-C51943DBEA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC60954D-252A-4614-B8DC-C51943DBEA51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
