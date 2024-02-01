@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net60WebApplication", "Net6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net70WebApplication", "Net70WebApplication\Net70WebApplication.csproj", "{FEAEC7D4-B557-4FD4-B0E7-496BA0087BFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net80Project", "Net80Project\Net80Project.csproj", "{1D120F49-FF6C-4781-B156-D7DB0B9E5BCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net80WebApplication", "Net80WebApplication\Net80WebApplication.csproj", "{39C0EB12-CACB-40C5-AB3B-2E009E3F8ACC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{FEAEC7D4-B557-4FD4-B0E7-496BA0087BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEAEC7D4-B557-4FD4-B0E7-496BA0087BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEAEC7D4-B557-4FD4-B0E7-496BA0087BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D120F49-FF6C-4781-B156-D7DB0B9E5BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D120F49-FF6C-4781-B156-D7DB0B9E5BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D120F49-FF6C-4781-B156-D7DB0B9E5BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D120F49-FF6C-4781-B156-D7DB0B9E5BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39C0EB12-CACB-40C5-AB3B-2E009E3F8ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C0EB12-CACB-40C5-AB3B-2E009E3F8ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C0EB12-CACB-40C5-AB3B-2E009E3F8ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C0EB12-CACB-40C5-AB3B-2E009E3F8ACC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

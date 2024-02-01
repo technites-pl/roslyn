@@ -1,15 +1,10 @@
-﻿using System.Xml.Linq;
-using Basic.Reference.Assemblies;
-using Microsoft.Build.Locator;
-using Microsoft.CodeAnalysis;
+﻿using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.MSBuild;
 
 namespace Analyzer;
 
 public static class MyAnalyzer
 {
-    static MyAnalyzer() => MSBuildLocator.RegisterDefaults();
-
     public static async Task Analyse(string slnPath)
     {
         var workspace = MSBuildWorkspace.Create();
@@ -36,14 +31,6 @@ public static class MyAnalyzer
 
     private static async Task<Compilation?> Compile(Project project)
     {
-        var targetFramework = XDocument.Load(project.FilePath!).Descendants("TargetFramework").First().Value;
-        var references = targetFramework switch
-        {
-            "net6.0" => Net60.References.All,
-            "net7.0" => Net70.References.All,
-            _ => throw new ArgumentOutOfRangeException()
-        };
-        project = project.AddMetadataReferences(references);
         var compilation = await project.GetCompilationAsync();
         if (compilation is null)
         {
